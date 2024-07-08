@@ -9,7 +9,7 @@ function generateDB() {
         // Collection of user objects
         users: [
             {
-                user_id: 1,
+                id: 1,
                 username: "Anna_Neuer",
                 password: "password123",
                 email: "xxx@example.com",
@@ -18,7 +18,7 @@ function generateDB() {
                 role: "Customer"
             }, 
             {
-                user_id: 2,
+                id: 2,
                 username: "admin_user",
                 password: "adminpassword",
                 email: "admin@example.com",
@@ -27,7 +27,7 @@ function generateDB() {
                 role: "Admin"
             },
             {
-                user_id: 3,
+                id: 3,
                 username: "guest_user",
                 password: "",
                 email: "",
@@ -39,9 +39,9 @@ function generateDB() {
         //Collection of products
         products: [
             {
-                product_id: 1,
+                id: 1,
                 category: "Herbal Teas",
-                product_name: "Wild berries",
+                name: "Wild berries",
                 description: "Antioxidant-rich herbal tea",
                 price: 9.99,
                 discount: 0.1, // 10% discount
@@ -49,9 +49,9 @@ function generateDB() {
                 images: ["image1.jpg", "image2.jpg"]
             },
             {
-                product_id: 2,
+                id: 2,
                 category: "Homemade Cosmetics",
-                product_name: "Lavender Face Cream",
+                name: "Lavender Face Cream",
                 description: "Homemade soothing face cream",
                 price: 15.99,
                 discount: 0.2, 
@@ -59,9 +59,9 @@ function generateDB() {
                 images: ["image3.jpg", "image4.jpg"]
             },
             {
-                product_id: 3,
+                id: 3,
                 category: "Herbal Supplements",
-                product_name: "Moringa Capsules",
+                name: "Moringa Capsules",
                 description: "Herbal supplement for overall health",
                 price: 25.99,
                 discount: 0.15, 
@@ -69,9 +69,9 @@ function generateDB() {
                 images: ["image5.jpg", "image6.jpg"]
             },
             {
-                product_id: 4,
+                id: 4,
                 category: "Mineral Products",
-                product_name: "Shilajit Resin",
+                name: "Shilajit Resin",
                 description: "Natural mineral supplement",
                 price: 39.99,
                 discount: 0.25, 
@@ -79,9 +79,9 @@ function generateDB() {
                 images: ["image7.jpg", "image8.jpg"]
             },
             {
-                product_id: 5,
+                id: 5,
                 category: "Herbal Teas",
-                product_name: "Ajwain Tea",
+                name: "Ajwain Tea",
                 description: "Refreshing herbal tea for stomach relief",
                 price: 8.99,
                 discount: 0.1, 
@@ -89,9 +89,9 @@ function generateDB() {
                 images: ["image9.jpg", "image10.jpg"]
             },
             {
-                product_id: 6,
+                id: 6,
                 category: "Homemade Cosmetics",
-                product_name: "Aloe Vera Gel",
+                name: "Aloe Vera Gel",
                 description: "Natural moisturizing gel",
                 price: 12.99,
                 discount: 0.05, // 5% discount
@@ -99,9 +99,9 @@ function generateDB() {
                 images: ["image11.jpg", "image12.jpg"]
             },
             {
-                product_id: 7,
+                id: 7,
                 category: "Herbal Supplements",
-                product_name: "Ashwagandha Capsules",
+                name: "Ashwagandha Capsules",
                 description: "Herbal supplement for stress relief",
                 price: 22.99,
                 discount: 0.1, 
@@ -109,9 +109,9 @@ function generateDB() {
                 images: ["image13.jpg", "image14.jpg"]
             },
             {
-                product_id: 8,
+                id: 8,
                 category: "Mineral Products",
-                product_name: "Himalayan Salt",
+                name: "Himalayan Salt",
                 description: "Natural mineral salt",
                 price: 5.99,
                 discount: 0.15, 
@@ -119,9 +119,9 @@ function generateDB() {
                 images: ["image15.jpg", "image16.jpg"]
             },
             {
-                product_id: 9,
+                id: 9,
                 category: "Herbal Teas",
-                product_name: "Matcha",
+                name: "Matcha",
                 description: "Antioxidant-rich herbal tea",
                 price: 10.99,
                 discount: 0.1, 
@@ -129,9 +129,9 @@ function generateDB() {
                 images: ["image17.jpg", "image18.jpg"]
             },
             {
-                product_id: 10,
+                id: 10,
                 category: "Homemade Cosmetics",
-                product_name: "Rose Water Toner",
+                name: "Rose Water Toner",
                 description: "Homemade natural toner",
                 price: 14.99,
                 discount: 0.2, 
@@ -139,9 +139,9 @@ function generateDB() {
                 images: ["image19.jpg", "image20.jpg"]
             },
             {
-                product_id: 11,
+                id: 11,
                 category: "Herbal Teas",
-                product_name: "Ginger Lemon Tea",
+                name: "Ginger Lemon Tea",
                 description: "Relaxing herbal tea",
                 price: 9.99,
                 discount: 0.1,
@@ -152,9 +152,9 @@ function generateDB() {
                 ]
               },
               {
-                product_id: 12,
+                id: 12,
                 category: "Herbal Supplements",
-                product_name: "Turmeric Curcumin Capsules",
+                name: "Turmeric Curcumin Capsules",
                 description: "Herbal supplement for inflammation and joint health",
                 price: 18.99,
                 discount: 0.1,
@@ -168,47 +168,47 @@ function generateDB() {
          //Collection of oders
         orders: [
             {
-                order_id: 1,
-                user_id: 1,
-                order_date: "2023-07-02",
+                id: 1,
+                userId: 1,
+                orderDate: "2023-07-02",
                 status: "Processing",
-                total_amount: 35.98
+                totalAmount: 35.98
             },
             {
-                order_id: 2,
-                user_id: 1,
-                order_date: "2023-07-01",
+                id: 2,
+                userId: 1,
+                orderDate: "2023-07-01",
                 status: "Shipped",
-                total_amount: 55.98
+                totalAmount: 55.98
             },
             {
-                order_id: 2,
-                user_id: 2,
-                order_date: "2023-07-01",
+                id: 2,
+                userId: 2,
+                orderDate: "2023-07-01",
                 status: "Processing",
-                total_amount: 35.98
+                totalAmount: 35.98
             }
         ],
          //Collection of ordered items
-        order_items: [
+        orderItems: [
             {
-                order_item_id: 1,
-                order_id: 1,
-                product_id: 1,
+                id: 1,
+                orderId: 1,
+                productId: 1,
                 quantity: 2,
                 price: 9.99
             },
             {
-                order_item_id: 2,
-                order_id: 1,
-                product_id: 3,
+                id: 2,
+                orderId: 1,
+                productId: 3,
                 quantity: 1,
                 price: 25.99
             },
             {
-                order_item_id: 3,
-                order_id: 2,
-                product_id: 2,
+                id: 3,
+                orderId: 2,
+                productId: 2,
                 quantity: 1,
                 price: 15.99
             },
