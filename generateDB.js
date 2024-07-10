@@ -1,6 +1,8 @@
 const fs = require('fs-extra'); // The fs module is a built-in Node.js module that provides an API for interacting with the file system
 const path = require('path'); // The path module is a built-in Node.js module that provides utilities for working with file and directory paths
 
+import product1Img from './assests/images/Teas/wildFruits.jpg';
+
 /* Data definition:
 JSON Server treats each top-level key as a database collection */
 
@@ -46,7 +48,7 @@ function generateDB() {
                 price: 9.99,
                 discount: 0.1, // 10% discount
                 stock: 100,
-                images: ["image1.jpg", "image2.jpg"]
+                images: [product1Img, "image2.jpg"]
             },
             {
                 id: 2,
