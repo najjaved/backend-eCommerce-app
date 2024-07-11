@@ -134,9 +134,7 @@ function generateDB() {
         price: 5.99,
         discount: 0.15,
         stock: 120,
-        images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNt2r-QmMpOzWG3GsutLYko4SOi9FJgWo2xj18X3RdW89slolkaK0J_jAulcI28QmdlAfs2RRHEcII55vwuG0Q8YQ73uVg7Mizk2GDHXI44Ym3em_NxOKBBfdhHciS_Ciz6GTv3zuhEUbf5Gw4n3-gf5Q=w600-h900-s-no-gm?authuser=0",
-        ],
+        images: ["https://photos.app.goo.gl/iBvyj9JkVVm2v2iq9"],
       },
       {
         id: 9,
@@ -146,9 +144,7 @@ function generateDB() {
         price: 17.99,
         discount: 0.3,
         stock: 40,
-        images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczNTdYcYQwH5Q9wUKEPTG4OTi3PJXodhfpcsy9XL4LtMOIU0WfCFT2rU916945ls_8I7dmBrfHaZOLx5SEAPyPKQBmCB3W0SHTK9_T2rkVcCtNmIRGJIm7yN2zGgvldpO4Amrq2NPooanJsvqoYG7KGhxA=w500-h750-s-no-gm?authuser=0",
-        ],
+        images: ["https://photos.app.goo.gl/W6CUDefwyc7gpVvy9"],
       },
       {
         id: 10,
@@ -158,9 +154,7 @@ function generateDB() {
         price: 14.99,
         discount: 0.2,
         stock: 60,
-        images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczMg1PzgXt3CqoVzvq_nNhAxjn9e33OHFw0C-4lAn4IhaVVjMX2j5lNFqIS7bCmvRFaxP-dD4RR-y-HTiETQh4_velJScKwaA521sKJhos4BNUS8rt_dVYQJ7MuF2S7cC1U6q1newxTBRq2XtZdBu4_FEA=w600-h900-s-no-gm?authuser=0",
-        ],
+        images: ["https://photos.app.goo.gl/Svu2AcLLfv2bvLi28"],
       },
       {
         id: 11,
@@ -170,9 +164,7 @@ function generateDB() {
         price: 9.99,
         discount: 0.1,
         stock: 100,
-        images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczMkFuw_1PKaeVDRMIKUbsvWv4CpJBOaXLT5lXLq2KX5nwaj7pDi0rMzdlXgn6YAoVwaZmVi3ack3_CqYspBtpkBeoxt98mEFkvFmv-NHIlPq6uhDdCAwNY-ggauK9wqgwlVBwHg_T7uCRdnQc7hi2JesA=w600-h900-s-no-gm?authuser=0",
-        ],
+        images: ["https://photos.app.goo.gl/5qqHhvPfvUbNJxD57"],
       },
       {
         id: 12,
@@ -182,9 +174,7 @@ function generateDB() {
         price: 18.99,
         discount: 0.1,
         stock: 100,
-        images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczPNf4lOLzBvv1VeJAnCtxaCO9g53kvVxwrfiJ0FI-6Qj4hfYghlXy9gJqU8RxKQjiaz1und3k9DRe5m0wDOXND4VUu6eYRPdIB7k1HboFWO9rrcz6NNRyGxPf4rLuznu_xpP8z1kyip6YxMKryZKBNV6w=w239-h450-s-no-gm?authuser=0",
-        ],
+        images: ["https://photos.app.goo.gl/8xmzzjjQJYN426eo7"],
       },
       {
         id: 13,
@@ -194,9 +184,7 @@ function generateDB() {
         price: 7.99,
         discount: 0,
         stock: 22,
-        images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczN6LGLjfs5gCNRiyHDUXy6F0B1_DjL6VgbJLq25e1HdwDsT-zouBaeDkLgRqW7A3UPnhBYYrmhUiY3GcEE67--jGXgF4wqvCQ82cyGKdMjZTjx_ryqJddZZBKW1OlPNPGRByn_NoUBqEQm49_wVABOXuw=w600-h900-s-no-gm?authuser=0",
-        ],
+        images: ["https://photos.app.goo.gl/tpsMP4iGPKHkWsLJ6"],
       },
       {
         id: 14,
@@ -206,9 +194,7 @@ function generateDB() {
         price: 17.99,
         discount: 0,
         stock: 35,
-        images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczPkUkg6XUFw5iiyPfEnHIGd-XgTjwjJWvwHImtmmsnwwwUuG_8I77P3WLZD9WuAGPP5r_xIx5qGirxjO7EJDb1Vjkd_dZ8X7qvo9hcG8W74dRNUnNcQKmRNILg3v79LPofFWTj1CYoeO2AT-1R9mkoAOQ=w600-h900-s-no-gm?authuser=0",
-        ],
+        images: ["https://photos.app.goo.gl/cxCQgsToSpyXQvDP6"],
       },
       {
         id: 15,
@@ -219,8 +205,8 @@ function generateDB() {
         discount: 0.25,
         stock: 50,
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczPTspbfvL0WQwRRl13_oSx7PNJaXGj3UubIxtBOt4K_kinkGuxpdsOt5dkApZd5nu8PKz2htTHko3OuRVaxQsZleTI7rZiC5rW4MxAHqsSJoyewZtCw6TZKswJkcjbLa1M9VjBz6jL5C1dRefLQUn2Amg=w600-h400-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczP6FnwNW1fCY-BXkbUCxBZGFl3rDqMGUIBRs_PJE7Iav1T27TLGjAg9qkrRqwbYNIYeWW08pnZfF-tu4-sG6B-ktBtbnZuMdZzC6lPCfO9QKsvS3g7CDeGS8l5RgdY6fSBdvz_A2nONeZAE_bL1sqhyBQ=w600-h400-s-no-gm?authuser=0",
+          "https://photos.app.goo.gl/8Dc5Rjby8tTNBbU56",
+          "https://photos.app.goo.gl/ccL49imQkwQg7xRZ9",
         ],
       },
       {
@@ -232,8 +218,8 @@ function generateDB() {
         discount: 0.15,
         stock: 30,
         images: [
-          "https://lh3.googleusercontent.com/pw/AP1GczP2eeiMVMzUad1ecY3sataumS8sudNTsoJW1PEUlICdDYC49GdwPHcy8mLotwAHqDIePoGWAKPdhS84nAvaqFrEGt6v48zJVuwcTsrjLYMlri45wAa51LWGB1oWAX6tKMjg-eySO1QbskuPeb6kFmOxDA=w600-h400-s-no-gm?authuser=0",
-          "https://lh3.googleusercontent.com/pw/AP1GczNepWXSbZwf5WTB9vnJ161Dq54bs-GNOK2NLEl8T9ZjJH3IT69Jn5y_JUKeaaJPWu8NgXoptqddECzP7bQiGm6XI57K2ji1_n_y3m85LMkOsS2KUpHZU_dYGnNKerYCokt-xvW2trpK3V-xI-UC4hUQjA=w600-h400-s-no-gm?authuser=0",
+          "https://photos.app.goo.gl/Nw3417p5XNFy21EL9",
+          "https://photos.app.goo.gl/EXrNNLqfrQjG4pZq6",
         ],
       },
     ],
